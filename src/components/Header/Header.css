@@ -1,0 +1,41 @@
+.Header {
+    height: 800px;
+}
+
+.Header_main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 200px 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.Header_main>p:nth-child(1) {
+    color: #FFC178;
+    font-size: 18px;
+}
+
+.Header_main>h1 {
+    font-size: 96px;
+}
+
+.Header_main>p:nth-child(3) {
+    color: var(--color-orange, #FC6652);
+}
+
+@media only screen and (max-width: 1040px) {
+    .Header_main>h1 {
+        font-size: 66px;
+    }    
+}
+
+@media only screen and (max-width: 660px) {
+    .Header {
+        height: 500px;
+    }
+    .Header_main>h1 {
+        font-size: 46px;
+    }    
+}

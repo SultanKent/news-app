@@ -1,0 +1,10 @@
+.Menu {
+    width: 100%;
+    height: 100px;
+    background: silver;
+}
+
+.Menu_main {
+    padding: 20px;
+    display: flex;
+}
